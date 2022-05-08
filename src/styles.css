@@ -5,9 +5,27 @@ html,body{
 #sidebar{
     height: 100%;
     min-height: 100vh;
-    min-width: 180px;
+    min-width: 150px;
+}
+::-webkit-scrollbar{
+    scroll-behavior: smooth;
 }
 
 .card{
     box-shadow: rgb(68, 71, 74) 3px 3px 5px;
+}
+.roller{
+    width: 80%;
+    margin-left: 20%;
+    padding-right: 0;
+    overflow-y: scroll;
+}
+.col-123{
+    width: 30%;
+}
+
+@media only screen and (min-width: 395px) {
+    body {
+        background-color: rgb(185, 24, 177);
+    }
 }
